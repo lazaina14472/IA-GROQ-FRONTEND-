@@ -387,7 +387,7 @@ formulaire.addEventListener(
 
             const response =
                 await fetch(
-                    "http://localhost:3000/api/chat",
+                    "https://ai-groq-backend.onrender.com/api/chat",
                     {
 
                         method: "POST",
