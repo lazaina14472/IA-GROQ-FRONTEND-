@@ -451,7 +451,7 @@ formulaire.addEventListener(
                 role: "ia",
 
                 content:
-                    "Une erreur est survenue lors de la communication avec le serveur."
+                    "Une erreur de frontend."
 
             });
 
