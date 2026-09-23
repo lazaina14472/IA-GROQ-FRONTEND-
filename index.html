@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>AI Assistant</title>
+
+    <!-- Flaticon -->
+    <link
+        rel="stylesheet"
+        href="https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
+    >
+
+    <link
+        rel="stylesheet"
+        href="./CSS/style.css"
+    >
+
+</head>
+
+
+<body>
+
+    <div class="application">
+
+
+        <!-- =========================
+             HEADER
+        ========================== -->
+
+        <header class="header">
+
+
+            <div class="logo">
+
+                <div class="logo-icon">
+
+                    <i class="fi fi-rr-sparkles"></i>
+
+                </div>
+
+
+                <div class="logo-information">
+
+                    <h1>AI Assistant</h1>
+
+                    <p>Assistant intelligent</p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="header-actions">
+
+
+                <!-- MODE CLAIR / SOMBRE -->
+
+                <button
+                    id="btnTheme"
+                    class="btn-theme"
+                    title="Changer le thème"
+                >
+
+                    <i
+                        id="themeIcon"
+                        class="fi fi-rr-moon"
+                    ></i>
+
+                </button>
+
+
+
+                <!-- SUPPRIMER -->
+
+                <button
+                    id="supprimerTout"
+                    class="btn-effacer"
+                    title="Effacer la conversation"
+                >
+
+                    <i class="fi fi-rr-trash"></i>
+
+                    <span>Effacer</span>
+
+                </button>
+
+
+            </div>
+
+
+        </header>
+
+
+
+        <!-- =========================
+             CONVERSATION
+        ========================== -->
+
+        <main
+            id="conversation"
+            class="conversation"
+        >
+
+        </main>
+
+
+
+        <!-- =========================
+             CHARGEMENT
+        ========================== -->
+
+        <div
+            id="chargement"
+            class="chargement cache"
+        >
+
+            <div class="loading-message">
+
+
+                <div class="loading-icon">
+
+                    <i class="fi fi-rr-sparkles"></i>
+
+                </div>
+
+
+                <div class="points">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =========================
+             FOOTER
+        ========================== -->
+
+        <footer class="footer">
+
+
+            <form
+                id="formulaire"
+                class="zone-message"
+            >
+
+
+                <textarea
+                    id="message"
+                    rows="1"
+                    placeholder="Écrivez votre message..."
+                ></textarea>
+
+
+
+                <button
+                    type="submit"
+                    id="btnEnvoyer"
+                    class="btn-envoyer"
+                    title="Envoyer"
+                >
+
+                    <i class="fi fi-rr-paper-plane"></i>
+
+                </button>
+
+
+            </form>
+
+
+
+            <p class="avertissement">
+
+                L'IA peut produire des informations incorrectes.
+                Vérifiez les informations importantes.
+
+            </p>
+
+
+        </footer>
+
+
+    </div>
+
+
+    <script src="./JS/script.js"></script>
+
+</body>
+
+</html>
